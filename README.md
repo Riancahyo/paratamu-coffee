@@ -1,9 +1,5 @@
 # Paratamu Coffee — Full Stack Website
 
-Website kafe modern dengan sistem reservasi online dan dashboard admin untuk mengelola menu, reservasi, dan testimoni pelanggan.
-
----
-
 ## Fitur
 
 ### Website Utama (User)
@@ -165,8 +161,6 @@ Website berjalan di `http://localhost:5173`
 | `http://localhost:5173/admin/dashboard` | Dashboard admin |
 
 Login menggunakan `ADMIN_EMAIL` dan `ADMIN_PASSWORD` yang diset di `.env` backend.
-
-> Halaman `/admin` tidak ada link-nya di website utama — hanya diakses langsung oleh admin melalui browser.
 
 ---
 
