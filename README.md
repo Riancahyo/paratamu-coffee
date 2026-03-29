@@ -52,7 +52,8 @@ paratamu/
 │   ├── index.html
 │   ├── package.json
 │   ├── tsconfig.json
-│   └── vite.config.ts
+│   ├── vite.config.ts
+│   └── vercel.json
 │
 ├── backend/
 │   ├── src/
@@ -67,7 +68,8 @@ paratamu/
 │   │   └── index.ts
 │   ├── .env.example
 │   ├── package.json
-│   └── tsconfig.json
+│   ├── tsconfig.json
+│   └── vercel.json
 │
 ├── .gitignore
 ├── README.md
