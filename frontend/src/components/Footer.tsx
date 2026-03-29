@@ -90,11 +90,21 @@ export default function Footer() {
         <div style={{
           display: "flex",
           flexDirection: isMobile ? "column" : "row",
-          justifyContent: "space-between", alignItems: "center",
-          gap: 8, textAlign: "center",
+          justifyContent: "space-between",
+          alignItems: "center",
+          gap: 8,
+          textAlign: isMobile ? "center" : "left",
         }}>
           <p style={{ fontSize: 12, color: "rgba(255,255,255,0.35)" }}>
-            © 2026 Rian Cahyo Anggoro. All rights reserved.
+            © 2026 Rian Cahyo Anggoro.
+          </p>
+
+          <p style={{
+            fontSize: 12,
+            color: "rgba(255,255,255,0.35)",
+            textAlign: isMobile ? "center" : "right",
+          }}>
+            Portfolio project — not an official website of Paratamu Coffee.
           </p>
         </div>
       </div>
